@@ -8,7 +8,7 @@ export default function Navbar() {
           <li><a href="https://www.linkedin.com/in/cesart98">LinkedIn</a></li>
         </ul>
       </div>
-      <ul className='text-white flex flex-row justify-around gap-12'>
+      <ul className='text-white flex flex-row justify-between gap-12'>
         <li>about</li>
         <li>projects</li>
         <li>contact</li>
