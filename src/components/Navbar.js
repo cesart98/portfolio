@@ -9,7 +9,7 @@ export default function Navbar() {
         </ul>
       </div>
       <ul className='text-white flex flex-row justify-between gap-12'>
-        <li>about</li>
+        <li>skills</li>
         <li>projects</li>
         <li>contact</li>
       </ul>
