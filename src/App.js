@@ -1,7 +1,18 @@
 import './App.css';
 import Navbar from './components/Navbar';
 
+function MainSection(props) {
+  return (
+    <section className=' bg-black/50 mb-6'>
+    <h2 className='text-white relative left-3 bottom-3'>{props.header}</h2>
+    {props.children}
+  </section>
+);
+
+}
+
 function App() {
+  
   return (
     <div className='relative flex flex-col 
       min-h-screen max-w-screen justify-start 
@@ -15,8 +26,7 @@ function App() {
           <h3>I speak ReactJS</h3>
           <button className='bg-red-600 w-max'>Resume</button>
         </section>
-        <section className=' bg-black/50 mb-6'>
-          <h2 className='text-white relative left-3 bottom-3'>Projects</h2>
+        <MainSection header={'Projects'} >
           <div className='text-black flex text-white text-center bg-white mx-4'>
             <div className='flex-1 flex flex-col items-center'>
               <h3>Fire-Support (Battleship Clone)</h3>
@@ -34,11 +44,41 @@ function App() {
               <div><button>Source</button><button>Live</button></div>
             </div>
           </div>
-        </section>
-        <section className='text-white bg-black/50 '>
-        <h2 className='relative left-3 bottom-3'>Skills</h2>
-        </section>
-        <section className='bg-purple-300 '>4</section>
+        </MainSection>
+        <MainSection header={'Skills'} >
+        <div className='text-black flex text-white text-center bg-white mx-4'>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Front-End Development</h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>TailwindCSS</li>
+              </ul>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Back-End Development</h3>
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>npm/Webpack</li>
+              </ul>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Database Interaction</h3>
+              <ul>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Agile Methodology</h3>
+              <ul>
+                <li>Git Version Control</li>
+              </ul>
+            </div>
+          </div>
+        </MainSection>
+        <MainSection header={'Contact'} />
       </main>
       <footer className='bg-orange-300'>footer section</footer>
     </div>
