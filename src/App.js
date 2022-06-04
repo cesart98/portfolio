@@ -78,7 +78,16 @@ function App() {
             </div>
           </div>
         </MainSection>
-        <MainSection header={'Contact'} />
+        <MainSection header={'Contact'} >
+          <div className='text-black flex text-white text-center bg-white mx-4'>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Let's Chat</h3>
+            </div>
+            <div className='flex-1 flex flex-col items-center'>
+              <h3>Form goes here</h3>
+            </div>
+          </div>
+        </MainSection>
       </main>
       <footer className='bg-orange-300'>footer section</footer>
     </div>
