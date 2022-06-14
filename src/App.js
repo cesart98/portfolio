@@ -62,25 +62,58 @@ function App() {
           </div>
         </section>
 
-        <MainSection header={'Projects'} >
-          <div className='text-black flex text-white text-center bg-white mx-4'>
-            <div className='flex-1 flex flex-col items-center'>
-              <h3>Fire-Support (Battleship Clone)</h3>
-              <img className='aspect-square'></img>
-              <div><button>Source</button><button>Live</button></div>
+        <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
+          <h2 className='text-2xl'>Projects</h2>
+          <div className='flex flex-col items-stretch gap-4'>
+
+            <div className="flex flex-row text-sm gap-2">
+              <div className='w-1/3 aspect-square'></div>
+              <div className='w-2/3 flex flex-col justify-center gap-2'>
+                <h3 className='text-xl'>Fire-Support</h3>
+                <p className='text-sm'>
+                  An army version of battleship board game. Includes online 
+                  multiplayer and stat tracking.
+                </p>
+                <div className='flex gap-2 text-sm'>
+                  <button className='bg-white px-1 rounded text-black'>Live site</button>
+                  <button className='bg-red-600 px-1 rounded'>Source code</button>
+                </div>
+              </div>
             </div>
-            <div className='flex-1 flex flex-col items-center'>
-              <h3>SUT-Website</h3>
-              <img className='aspect-square'></img>
-              <div><button>Source</button><button>Live</button></div>
+
+            <div className="flex flex-row text-sm gap-2">
+              <div className='w-1/3 aspect-square'></div>
+              <div className='w-2/3 flex flex-col justify-center gap-2'>
+                <h3 className='text-xl'>Fire-Support</h3>
+                <p className='text-sm'>
+                  An army version of battleship board game. Includes online 
+                  multiplayer and stat tracking.
+                </p>
+                <div className='flex gap-2 text-sm'>
+                  <button className='bg-white px-1 rounded text-black'>Live site</button>
+                  <button className='bg-red-600 px-1 rounded'>Source code</button>
+                </div>
+              </div>
             </div>
-            <div className='flex-1 flex flex-col items-center'>
-              <h3>BASH Script</h3>
-              <img className='aspect-square'></img>
-              <div><button>Source</button><button>Live</button></div>
+
+            <div className="flex flex-row text-sm gap-2">
+              <div className='w-1/3 aspect-square'></div>
+              <div className='w-2/3 flex flex-col justify-center gap-2'>
+                <h3 className='text-xl'>Fire-Support</h3>
+                <p className='text-sm'>
+                  An army version of battleship board game. Includes online 
+                  multiplayer and stat tracking.
+                </p>
+                <div className='flex gap-2 text-sm'>
+                  <button className='bg-white px-1 rounded text-black'>Live site</button>
+                  <button className='bg-red-600 px-1 rounded'>Source code</button>
+                </div>
+              </div>
             </div>
+
           </div>
-        </MainSection>
+        </section>
+
         <MainSection header={'Contact'} >
           <div className='text-black flex text-white text-center bg-white mx-4'>
             <div className='flex-1 flex flex-col items-center'>
