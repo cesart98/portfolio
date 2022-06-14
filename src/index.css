@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  border: solid blue 1px;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
