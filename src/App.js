@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar';
 
 function MainSection(props) {
   return (
@@ -18,7 +17,20 @@ function App() {
       min-h-screen max-w-screen justify-start 
       bg-gray-600'>
       <header className='bg-black/50 px-6' >
-        <Navbar />
+        <nav className='relative flex flex-col'>
+          <div className='text-white flex flex-row justify-between'>
+            <a href="https://github.com/cesart98">CT</a>
+            <ul className='gap-2 relative flex flex-row'>
+              <li><a href="https://github.com/cesart98">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/cesart98">LinkedIn</a></li>
+            </ul>
+          </div>
+          <ul className='text-white flex flex-row justify-between gap-12'>
+            <li>skills</li>
+            <li>projects</li>
+            <li>contact</li>
+          </ul>
+        </nav>
       </header>
       <main>
 
@@ -26,7 +38,7 @@ function App() {
           <p className='text-sm'>Hello, I'm</p>
           <h1 className='text-5xl'>Cesar Torres</h1>
           <p className='text-sm'>Fullstack web developer</p>
-          <button className='bg-red-600 w-min text-sm px-3 py-1'>Projects</button>
+          <button className='bg-red-600 w-min text-sm px-1 rounded'>Projects</button>
         </section>
 
         <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
@@ -114,16 +126,31 @@ function App() {
           </div>
         </section>
 
-        <MainSection header={'Contact'} >
-          <div className='text-black flex text-white text-center bg-white mx-4'>
-            <div className='flex-1 flex flex-col items-center'>
-              <h3>Let's Chat</h3>
+        <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
+          <h2 className='text-2xl'>Contact</h2>
+          <div className="flex flex-row text-sm gap-2">
+            <div className='w-1/2 flex flex-col gap-2 justify-center pr-6'>
+              <h3 className='text-xl'>Lets get in touch.</h3>
+              <p className='text-sm'>
+                If you have any developer roles you believe I would 
+                suited for please enter your email and I'll respond 
+                as soon as possible.
+              </p>
             </div>
-            <div className='flex-1 flex flex-col items-center'>
-              <h3>Form goes here</h3>
-            </div>
+              <form className='w-1/2 flex flex-col gap-2 justify-center'>
+                  <label htmlFor='name' className='flex flex-col'>
+                    Name: <input type='text' id='name' name='name'></input>
+                  </label>
+                  <label htmlFor='email' className='flex flex-col'>
+                    Email: <input type='email' id='email' name='email'></input>
+                  </label>
+                  <label htmlFor='phone' className='flex flex-col'>
+                    Phone: <input type='tel' id='phone' name='phone'></input>
+                  </label>
+                <button className='bg-white px-1 rounded text-black w-min'>Submit</button>
+              </form>
           </div>
-        </MainSection>
+        </section>
       </main>
       <footer className='bg-orange-300'>footer section</footer>
     </div>
