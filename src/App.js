@@ -1,6 +1,7 @@
 import './App.css';
 import githubLogo from './assets/github-logo.svg'
 import linkedinLogo from './assets/linkedin-logo.svg'
+import profilePhoto from './assets/profile-photo.jpg'
 
 function App() {
   
@@ -55,7 +56,7 @@ function App() {
               </p>
             </div>
             <div className='flex flex-col gap-1 justify-center w-1/2 px-6 py-6 text-center'>
-              <img className='aspect-square w-20 self-center rounded-full bg-white relative top-10'></img>
+              <img src={profilePhoto} className='aspect-square w-20 self-center rounded-full relative top-10'/>
               <h3 className='text-xl pt-10'>Cesar Torres</h3>
               <p className='text-base'>Skills</p>
               <ul className='text-sm flex flex-wrap gap-x-3 gap-y-1 justify-center'>
@@ -64,7 +65,7 @@ function App() {
                 <li className='bg-cyan-600 px-1 rounded'>TailwindCSS</li>
                 <li className='bg-emerald-700 px-1 rounded'>Node.js</li>
                 <li className='bg-fuchsia-700 px-1 rounded'>MongoDB</li>
-                <li className='bg-slate-500 px-1 rounded'>BASH</li>
+                <li className='bg-slate-500 px-1 rounded'>Express</li>
               </ul>
             </div>
           </div>
