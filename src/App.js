@@ -4,9 +4,8 @@ function App() {
   
   return (
     <div className='relative flex flex-col 
-      min-h-screen max-w-screen justify-start 
-      bg-gray-600'>
-      <header className='bg-black/50 px-6' >
+      min-h-screen max-w-screen justify-start custom-background'>
+      <header className='bg-black/70 px-6' >
         <nav className='relative flex flex-col'>
           <div className='text-white flex flex-row justify-between'>
             <a className='text-lg' href="https://github.com/cesart98">CT</a>
@@ -27,30 +26,31 @@ function App() {
         <section className='text-white flex flex-col py-32 gap-2 mx-6'>
           <p className='text-sm'>Hello, I'm</p>
           <h1 className='text-5xl'>Cesar Torres</h1>
-          <p className='text-sm'>Fullstack web developer</p>
+          <p className='text-base'>Fullstack web developer</p>
           <button className='bg-red-600 w-min text-sm px-1 rounded'>Projects</button>
         </section>
 
-        <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
           <h2 className='text-2xl'>About Me</h2>
           <div className='flex flex-row justify-between'>
-            <div className="flex flex-col justify-center items-start w-72 text-sm gap-6 pr-6">
+            <div className="flex flex-col justify-center items-start w-1/2 text-sm gap-6 pr-6">
               <p>
-              I specialize in modern applications of JavaScript in 
-              the frontend and backend. I have cross-industry experience 
-              as an analytical chemist and combat engineer in the US Army.
+                I specialize in modern applications of JavaScript in 
+                the frontend and backend. I have cross-industry experience 
+                as an analytical chemist and combat engineer in the US Army.
               </p>
               <p>
-              I'd love to join a team where I can demonstrate my ability 
-              to adapt and quickly learn in a high-paced environment. At 
-              the end of the day, skills can be taught, qualities can't. 
-              Learning to code while on a deployment with the Army was 
-              hard, but finding someone with the qualities to succeed in 
-              the worst situations is even harder.
+                I'd love to join a team where I can demonstrate my ability 
+                to adapt and quickly learn in a high-paced environment. At 
+                the end of the day, skills can be taught, qualities can't. 
+                Learning to code while on a deployment with the Army was 
+                hard, but finding someone with the qualities to succeed in 
+                the worst situations is even harder.
               </p>
             </div>
-            <div className='flex flex-col justify-center w-1/2 px-6 py-6 text-center'>
-              <h3 className='text-xl'>Cesar Torres</h3>
+            <div className='flex flex-col gap-1 justify-center w-1/2 px-6 py-6 text-center'>
+              <img className='aspect-square w-20 self-center rounded-full bg-white relative top-10'></img>
+              <h3 className='text-xl pt-10'>Cesar Torres</h3>
               <p className='text-base'>Skills</p>
               <ul className='text-sm flex flex-wrap gap-x-3 gap-y-1 justify-center'>
                 <li className='bg-yellow-600 px-1 rounded'>JavaScript</li>
@@ -64,7 +64,7 @@ function App() {
           </div>
         </section>
 
-        <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
           <h2 className='text-2xl'>Projects</h2>
           <div className='flex flex-col items-stretch gap-4'>
 
@@ -116,7 +116,7 @@ function App() {
           </div>
         </section>
 
-        <section className='bg-black/50 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
           <h2 className='text-2xl'>Contact</h2>
           <div className="flex flex-row text-sm gap-2">
             <div className='w-1/2 flex flex-col gap-2 justify-center pr-6'>
@@ -142,7 +142,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className='text-white relative flex flex-col bg-black/50 px-6 text-center'>
+      <footer className='text-white relative flex flex-col bg-black/70 px-6 text-center'>
         <p className='text-xs'>torres-cesar@outlook.com</p>
         <a className='text-lg' href="https://github.com/cesart98">CT</a>
       </footer>
