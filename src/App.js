@@ -23,14 +23,14 @@ function App() {
       </header>
       <main>
 
-        <section className='text-white flex flex-col py-32 gap-2 mx-6'>
+        <section className='text-white flex flex-col py-40 gap-2 mx-6'>
           <p className='text-sm'>Hello, I'm</p>
           <h1 className='text-5xl'>Cesar Torres</h1>
           <p className='text-base'>Fullstack web developer</p>
           <button className='bg-red-600 w-min text-sm px-1 rounded'>Projects</button>
         </section>
 
-        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 py-4 flex flex-col gap-4 mx-4 rounded'>
           <h2 className='text-2xl'>About Me</h2>
           <div className='flex flex-row justify-between'>
             <div className="flex flex-col justify-center items-start w-1/2 text-sm gap-6 pr-6">
@@ -64,7 +64,7 @@ function App() {
           </div>
         </section>
 
-        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 py-4 flex flex-col gap-4 mx-4 rounded'>
           <h2 className='text-2xl'>Projects</h2>
           <div className='flex flex-col items-stretch gap-4'>
 
@@ -116,7 +116,7 @@ function App() {
           </div>
         </section>
 
-        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4'>
+        <section className='bg-black/70 mb-6 text-white px-6 flex flex-col gap-4 py-4 mx-4 rounded'>
           <h2 className='text-2xl'>Contact</h2>
           <div className="flex flex-row text-sm gap-2">
             <div className='w-1/2 flex flex-col gap-2 justify-center pr-6'>
