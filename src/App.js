@@ -1,15 +1,5 @@
 import './App.css';
 
-function MainSection(props) {
-  return (
-    <section className=' bg-black/50 mb-6'>
-    <h2 className='text-white '>{props.header}</h2>
-    {props.children}
-  </section>
-);
-
-}
-
 function App() {
   
   return (
@@ -20,12 +10,12 @@ function App() {
         <nav className='relative flex flex-col'>
           <div className='text-white flex flex-row justify-between'>
             <a className='text-lg' href="https://github.com/cesart98">CT</a>
-            <ul className='gap-2 relative flex flex-row'>
+            <ul className='gap-2 relative flex flex-row items-center text-sm'>
               <li><a href="https://github.com/cesart98">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/cesart98">LinkedIn</a></li>
             </ul>
           </div>
-          <ul className='text-white flex flex-row justify-between gap-12'>
+          <ul className='text-white text-base flex flex-row justify-evenly gap-12'>
             <li>skills</li>
             <li>projects</li>
             <li>contact</li>
@@ -66,9 +56,9 @@ function App() {
                 <li className='bg-yellow-600 px-1 rounded'>JavaScript</li>
                 <li className='bg-blue-600 px-1 rounded'>React</li>
                 <li className='bg-cyan-600 px-1 rounded'>TailwindCSS</li>
-                <li className='bg-green-600 px-1 rounded'>Node.js</li>
-                <li className='bg-lime-600 px-1 rounded'>MongoDB</li>
-                <li className='bg-red-600 px-1 rounded'>BASH</li>
+                <li className='bg-emerald-700 px-1 rounded'>Node.js</li>
+                <li className='bg-fuchsia-700 px-1 rounded'>MongoDB</li>
+                <li className='bg-slate-500 px-1 rounded'>BASH</li>
               </ul>
             </div>
           </div>
@@ -96,7 +86,7 @@ function App() {
             <div className="flex flex-row text-sm gap-2">
               <div className='w-1/3 aspect-square'></div>
               <div className='w-2/3 flex flex-col justify-center gap-2'>
-                <h3 className='text-xl'>Fire-Support</h3>
+                <h3 className='text-xl'>James Webb Space Telescope Dashboard</h3>
                 <p className='text-sm'>
                   An army version of battleship board game. Includes online 
                   multiplayer and stat tracking.
@@ -111,7 +101,7 @@ function App() {
             <div className="flex flex-row text-sm gap-2">
               <div className='w-1/3 aspect-square'></div>
               <div className='w-2/3 flex flex-col justify-center gap-2'>
-                <h3 className='text-xl'>Fire-Support</h3>
+                <h3 className='text-xl'>BASH Script</h3>
                 <p className='text-sm'>
                   An army version of battleship board game. Includes online 
                   multiplayer and stat tracking.
