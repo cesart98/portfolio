@@ -1,4 +1,6 @@
 import './App.css';
+import githubLogo from './assets/github-logo.svg'
+import linkedinLogo from './assets/linkedin-logo.svg'
 
 function App() {
   
@@ -10,8 +12,12 @@ function App() {
           <div className='text-white flex flex-row justify-between'>
             <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
             <ul className='gap-2 relative flex flex-row items-center text-sm'>
-              <li><a href="https://github.com/cesart98">GitHub</a></li>
-              <li><a href="https://www.linkedin.com/in/cesart98">LinkedIn</a></li>
+              <li><a href="https://github.com/cesart98">
+                <img className='w-7' src={githubLogo}/>
+              </a></li>
+              <li><a href="https://www.linkedin.com/in/cesart98">
+              <img className='w-7' src={linkedinLogo}/>
+              </a></li>
             </ul>
           </div>
           <ul className='text-white text-base flex flex-row justify-evenly gap-12'>
