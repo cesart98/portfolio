@@ -64,12 +64,12 @@ function App() {
           </div>
         </section>
 
-        <section className='bg-black/70 mb-6 text-white px-6 py-4 flex flex-col gap-4 mx-4 rounded'>
+        <section className='bg-black/70 mb-6 text-white px-6 py-4 flex flex-col gap-8 mx-4 rounded'>
           <h2 className='text-2xl'>Projects</h2>
           <div className='flex flex-col items-stretch gap-4'>
 
             <div className="flex flex-row text-sm gap-2">
-              <div className='w-1/3 aspect-square'></div>
+              <div className='w-1/3 aspect-square mr-6 bg-white'></div>
               <div className='w-2/3 flex flex-col justify-center gap-2'>
                 <h3 className='text-xl'>Fire-Support</h3>
                 <p className='text-sm'>
@@ -84,7 +84,7 @@ function App() {
             </div>
 
             <div className="flex flex-row text-sm gap-2">
-              <div className='w-1/3 aspect-square'></div>
+              <div className='w-1/3 aspect-square mr-6 bg-white'></div>
               <div className='w-2/3 flex flex-col justify-center gap-2'>
                 <h3 className='text-xl'>James Webb Space Telescope Dashboard</h3>
                 <p className='text-sm'>
@@ -99,7 +99,7 @@ function App() {
             </div>
 
             <div className="flex flex-row text-sm gap-2">
-              <div className='w-1/3 aspect-square'></div>
+              <div className='w-1/3 aspect-square mr-6 bg-white'></div>
               <div className='w-2/3 flex flex-col justify-center gap-2'>
                 <h3 className='text-xl'>BASH Script</h3>
                 <p className='text-sm'>
