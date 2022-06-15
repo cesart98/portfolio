@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='relative flex flex-col 
       min-h-screen max-w-screen justify-start custom-background'>
-      <header className='bg-black/70 px-6' >
+      <header className='bg-black/70 px-6 py-1' >
         <nav className='relative flex flex-col'>
           <div className='text-white flex flex-row justify-between'>
             <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
@@ -148,7 +148,7 @@ function App() {
           </div>
         </section>
       </main>
-      <footer className='text-white relative flex flex-col bg-black/70 px-6 text-center'>
+      <footer className='text-white relative flex flex-col bg-black/70 px-6 text-center py-1'>
         <p className='text-xs'>torres-cesar@outlook.com</p>
         <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
       </footer>
