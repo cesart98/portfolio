@@ -13,10 +13,10 @@ function App() {
             <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
             <ul className='gap-2 relative flex flex-row items-center text-sm'>
               <li><a href="https://github.com/cesart98">
-                <img className='w-7' src={githubLogo}/>
+                <img className='w-6' src={githubLogo}/>
               </a></li>
               <li><a href="https://www.linkedin.com/in/cesart98">
-              <img className='w-7' src={linkedinLogo}/>
+              <img className='w-6' src={linkedinLogo}/>
               </a></li>
             </ul>
           </div>
