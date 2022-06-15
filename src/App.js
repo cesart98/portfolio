@@ -8,7 +8,7 @@ function App() {
       <header className='bg-black/70 px-6' >
         <nav className='relative flex flex-col'>
           <div className='text-white flex flex-row justify-between'>
-            <a className='text-lg' href="https://github.com/cesart98">CT</a>
+            <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
             <ul className='gap-2 relative flex flex-row items-center text-sm'>
               <li><a href="https://github.com/cesart98">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/cesart98">LinkedIn</a></li>
@@ -144,7 +144,7 @@ function App() {
       </main>
       <footer className='text-white relative flex flex-col bg-black/70 px-6 text-center'>
         <p className='text-xs'>torres-cesar@outlook.com</p>
-        <a className='text-lg' href="https://github.com/cesart98">CT</a>
+        <a className='text-lg font-extrabold' href="https://github.com/cesart98">CT</a>
       </footer>
     </div>
   );
